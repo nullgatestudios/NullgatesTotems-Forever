@@ -1,0 +1,9 @@
+<Bindings>
+    <!-- Secure click bindings: each drops its element's chosen totem -->
+    <Binding name="CLICK NullgatesTotemsEarth:LeftButton" header="NULLGATESTOTEMS"/>
+    <Binding name="CLICK NullgatesTotemsFire:LeftButton"/>
+    <Binding name="CLICK NullgatesTotemsWater:LeftButton"/>
+    <Binding name="CLICK NullgatesTotemsAir:LeftButton"/>
+    <Binding name="CLICK NullgatesTotemsDropAll:LeftButton"/>
+    <Binding name="CLICK NullgatesTotemsImbue:LeftButton"/>
+</Bindings>

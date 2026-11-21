@@ -1,6 +1,8 @@
 # Nullgate's Totems - Forever: Plan
 
-Status: planning, with no code written yet. Planned on 2026-11-20.
+Status: phases 0 to 4 built as 1.0.0-beta.1 on 2026-11-20; the in-game checks wait for testers (`/ntotem check`). Planned on 2026-11-20.
+
+Built beyond the plan: a weapon imbue button (the plan had only the reminder). Earthbind is excluded from party buffs (its aura is a slow on enemies).
 
 - **Folder:** `NullgatesTotems-Forever`
 - **Saved variables:** `NullgatesTotemsDB` (per character)

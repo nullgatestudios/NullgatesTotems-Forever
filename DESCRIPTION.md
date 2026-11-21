@@ -12,7 +12,7 @@ Every totem duration comes straight from the Forever client, where most totems l
 - **Drop All**: place your four chosen totems, one press per totem.
 - **Totem timers** on each button, with warnings when a totem is about to expire, is destroyed early, or you've moved out of its range.
 - **Party range list**: for totems that buff your party, see who has the buff and who is too far away.
-- **Weapon imbue reminder** for Rockbiter, Flametongue, Frostbrand and Windfury Weapon when it's missing or running low.
+- **Weapon imbue button and reminder**: one click casts your chosen imbue (Rockbiter, Flametongue, Frostbrand or Windfury Weapon) at your highest rank, with a reminder when it's missing or running low.
 - **Totem sets**: save sets such as "Raid melee", "Caster group" or "Fire resist" and switch all four choices at once.
 - **Key bindings** for every button, under Key Bindings > AddOns.
 - **Simple settings**: lock and move the bar, vertical or horizontal layout, scale, warnings and the language.
@@ -34,7 +34,9 @@ The game doesn't allow buttons to change during combat. If you choose a differen
 | Command | Action |
 | :--- | :--- |
 | `/ntotem` or `/totems` | Open the settings. |
+| `/ntotem save <name>` | Save your four totem choices as a set. |
 | `/ntotem set <name>` | Switch to a saved totem set. |
+| `/ntotem sets` / `/ntotem delete <name>` | List your sets, or delete one. |
 | `/ntotem lock` / `/ntotem unlock` | Lock or unlock the bar. |
 | `/ntotem reset` | Reset the bar's position. |
 | `/ntotem check` | Test what the addon needs in your game client and save the results (for bug reports). |
