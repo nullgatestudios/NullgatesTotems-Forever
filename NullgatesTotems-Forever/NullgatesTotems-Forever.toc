@@ -2,7 +2,7 @@
 ## Title: |cff00c0ffNullgate's Totems|r - |cffffd100Forever|r
 ## Notes: Drop your chosen totems at your highest rank, with timers, party range and a weapon imbue reminder.
 ## Author: Nullgate Studios
-## Version: 1.0.0-beta.1
+## Version: 1.0.0-beta.2
 ## IconTexture: Interface\Icons\Spell_Nature_StrengthOfEarthTotem02
 ## SavedVariablesPerCharacter: NullgatesTotemsDB
 ## OptionalDeps: NullgatesAddonConfig-Forever

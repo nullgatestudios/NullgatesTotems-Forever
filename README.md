@@ -1,6 +1,6 @@
 # Nullgate's Totems - Forever
 
-> **Status: beta** (1.0.0-beta.1). Looking for shamans to test it. See [CHANGELOG.md](CHANGELOG.md).
+> **Status: beta** (1.0.0-beta.2). Looking for shamans to test it. See [CHANGELOG.md](CHANGELOG.md).
 
 **Nullgate's Totems** is a shaman addon for **World of Warcraft: Forever**. Four element buttons drop the totems you choose at your highest rank, with timers, a party range list and a weapon imbue reminder.
 

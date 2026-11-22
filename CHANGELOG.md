@@ -2,6 +2,13 @@
 
 All notable changes to Nullgate's Totems - Forever.
 
+## [1.0.0-beta.2] - 2026-11-21
+
+### Fixed
+
+- No more error when the game hides a party member's range from addons. That player is treated as in range.
+- Buffs the game hides from addons, usually in combat, are skipped instead of causing an error.
+
 ## [1.0.0-beta.1] - 2026-11-20
 
 First test version, looking for shamans to try it.
