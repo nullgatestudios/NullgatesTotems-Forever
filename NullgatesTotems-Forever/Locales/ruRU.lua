@@ -43,6 +43,7 @@ ns.RegisterLanguagePack("ruRU", "Русский", {
     ["On your weapon: %s left."] = "На оружии: осталось %s.",
     ["open the settings"] = "открыть настройки",
     ["out of range"] = "вне радиуса",
+    ["unknown"] = "неизвестно",
     ["Press once per totem to drop all four chosen totems."] = "Нажимайте по разу на тотем, чтобы поставить все четыре.",
     ["Reset bar position"] = "Сбросить положение панели",
     ["reset the bar's position"] = "сбросить положение панели",

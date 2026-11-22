@@ -43,6 +43,7 @@ ns.RegisterLanguagePack("esES", "Español", {
     ["On your weapon: %s left."] = "En tu arma: quedan %s.",
     ["open the settings"] = "abrir las opciones",
     ["out of range"] = "fuera de alcance",
+    ["unknown"] = "desconocido",
     ["Press once per totem to drop all four chosen totems."] = "Pulsa una vez por tótem para poner los cuatro tótems elegidos.",
     ["Reset bar position"] = "Restablecer posición de la barra",
     ["reset the bar's position"] = "restablecer la posición de la barra",

@@ -2,6 +2,12 @@
 
 All notable changes to Nullgate's Totems - Forever.
 
+## [1.0.0-beta.3] - 2026-11-21
+
+### Fixed
+
+- No more "Auras cannot be accessed when secret" error. While the game hides a party member's buffs from addons, the party buff tooltip shows them as unknown, and the out-of-range warning waits.
+
 ## [1.0.0-beta.2] - 2026-11-21
 
 ### Fixed

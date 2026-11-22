@@ -43,6 +43,7 @@ ns.RegisterLanguagePack("koKR", "한국어", {
     ["On your weapon: %s left."] = "무기: %s 남음.",
     ["open the settings"] = "설정 열기",
     ["out of range"] = "범위 밖",
+    ["unknown"] = "알 수 없음",
     ["Press once per totem to drop all four chosen totems."] = "토템마다 한 번씩 눌러 선택한 네 토템을 모두 설치합니다.",
     ["Reset bar position"] = "바 위치 초기화",
     ["reset the bar's position"] = "바 위치 초기화",

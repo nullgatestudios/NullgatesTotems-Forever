@@ -80,8 +80,10 @@ local function ShowTooltip(button)
             GameTooltip:AddLine(string.format(L["%s: %s left."], name, ns.Totems.Clock(ns.Totems.Remaining(start, duration, GetTime()))), 1, 1, 1)
             local rows = PartyBuffs(ActiveEntry(kind, name))
             for _, row in ipairs(rows or {}) do
-                local color = (row.state == "yes" and "|cff40ff40") or (row.state == "far" and "|cff808080") or "|cffff5050"
-                local text = (row.state == "yes" and L["has it"]) or (row.state == "far" and L["out of range"]) or L["missing"]
+                local grey = row.state == "far" or row.state == "unknown"
+                local color = (row.state == "yes" and "|cff40ff40") or (grey and "|cff808080") or "|cffff5050"
+                local text = (row.state == "yes" and L["has it"]) or (row.state == "far" and L["out of range"])
+                    or (row.state == "unknown" and L["unknown"]) or L["missing"]
                 GameTooltip:AddLine(color .. tostring(row.name) .. ": " .. text .. "|r")
             end
         end
@@ -322,7 +324,7 @@ function Buttons.Tick()
             button.party:SetText(rows and (have .. "/" .. total) or "")
             if rows and w.range and not state.outWarned then
                 local mine = ns.Units.HasBuff("player", ns.Units.SpellName(totem.buffSpell))
-                if ns.Totems.OutOfRange(mine, now - state.droppedAt, 3) then
+                if ns.Totems.OutOfRange(mine ~= false, now - state.droppedAt, 3) then -- unknown isn't out of range
                     state.outWarned = true
                     Warn(string.format(L["You're out of range of your %s."], name))
                 end

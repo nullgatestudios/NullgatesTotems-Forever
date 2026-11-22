@@ -43,6 +43,7 @@ ns.RegisterLanguagePack("zhTW", "繁體中文", {
     ["On your weapon: %s left."] = "武器上：剩餘 %s。",
     ["open the settings"] = "開啟設定",
     ["out of range"] = "超出範圍",
+    ["unknown"] = "未知",
     ["Press once per totem to drop all four chosen totems."] = "每個圖騰按一次，放下全部四個所選圖騰。",
     ["Reset bar position"] = "重置按鈕列位置",
     ["reset the bar's position"] = "重置按鈕列位置",
