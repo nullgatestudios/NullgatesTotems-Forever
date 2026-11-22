@@ -16,12 +16,14 @@ function Units.HasBuff(unit, name)
         local auraName
         if C_UnitAuras and C_UnitAuras.GetAuraDataByIndex then
             local aura = C_UnitAuras.GetAuraDataByIndex(unit, i, "HELPFUL")
-            auraName = aura and aura.name
+            if not aura then return false end
+            auraName = aura.name
         else
             auraName = UnitBuff(unit, i)
+            if not auraName then return false end
         end
-        if not auraName then return false end
-        if auraName == name then return true end
+        -- Forever can hide aura names from addons (secret values); those can't be compared.
+        if auraName and not (issecretvalue and issecretvalue(auraName)) and auraName == name then return true end
     end
     return false
 end
@@ -41,8 +43,10 @@ function Units.BuffState(unit, buffName)
     if Units.HasBuff(unit, buffName) then return "yes" end
     if unit ~= "player" then
         if not UnitIsConnected(unit) or UnitIsDeadOrGhost(unit) then return "far" end
+        -- Forever can return the range as secret values, which can't be tested: then it's unknown.
         local inRange, checked = UnitInRange(unit)
-        if checked and not inRange then return "far" end
+        local secret = issecretvalue and (issecretvalue(inRange) or issecretvalue(checked))
+        if not secret and checked and not inRange then return "far" end
     end
     return "no"
 end
