@@ -7,6 +7,7 @@
 ## SavedVariablesPerCharacter: NullgatesTotemsDB
 ## OptionalDeps: NullgatesAddonConfig-Forever
 ## X-License: Restricted - Source Available (All Rights Reserved, No Derivatives)
+## X-Curse-Project-ID: 1827050
 ## X-Website: https://github.com/nullgatestudios/NullgatesTotems-Forever
 
 Locale.lua
