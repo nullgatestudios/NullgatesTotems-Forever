@@ -203,6 +203,12 @@ OK(Printed("There's no set called \"Nope\"."), "an unknown set says so")
 SlashCmdList.NULLGATESTOTEMS("")
 OK(NullgatesTotemsOptions and NullgatesTotemsOptions.shown, "/ntotem opens the settings")
 SlashCmdList.NULLGATESTOTEMS("check")
+do -- the report window every Nullgate addon shares
+    local w = NullgateReportWindow
+    OK(w and w.shown and w.url == "https://nullgatestudios.com/report?addon=totems", "check opens the shared report window with this addon's link")
+    OK(w and w.text and w.text:find("Addon: totems\nNullgate's Totems - Forever ", 1, true) == 1, "the report starts with the addon's slug and name")
+    OK(w and w.box.text == w.text and w.link.text == w.url, "the report and the link are in the window, ready to copy")
+end
 local log = table.concat(db.check or {}, "\n")
 OK(log:find("GetTotemInfo=yes", 1, true), "check reports which calls exist")
 OK(log:find("drop all macro: /castsequence", 1, true), "check reports the Drop All macro")

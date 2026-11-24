@@ -2,6 +2,10 @@
 local _, ns = ...
 
 ns.RegisterLanguagePack("zhCN", "简体中文", {
+    ["Bug report"] = "错误报告",
+    ["Select all"] = "全选",
+    ["Press Ctrl+C to copy this report, then paste it into a new report at the link below, with a few words on what happened."] = "按 Ctrl+C 复制这份报告，然后在下方链接中新建报告并粘贴，再简单说明发生了什么。",
+    ["Select link"] = "选中链接",
     ["%s expires in %d seconds."] = "%s将在 %d 秒后消失。",
     ["%s was destroyed."] = "%s被摧毁了。",
     ["%s: %s left."] = "%s：剩余 %s。",

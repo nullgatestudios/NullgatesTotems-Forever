@@ -2,6 +2,10 @@
 local _, ns = ...
 
 ns.RegisterLanguagePack("ruRU", "Русский", {
+    ["Bug report"] = "Отчёт об ошибке",
+    ["Select all"] = "Выделить всё",
+    ["Press Ctrl+C to copy this report, then paste it into a new report at the link below, with a few words on what happened."] = "Нажмите Ctrl+C, чтобы скопировать этот отчёт, затем вставьте его в новый отчёт по ссылке ниже и коротко опишите, что произошло.",
+    ["Select link"] = "Выделить ссылку",
     ["%s expires in %d seconds."] = "%s исчезнет через %d сек.",
     ["%s was destroyed."] = "%s уничтожен.",
     ["%s: %s left."] = "%s: осталось %s.",

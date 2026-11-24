@@ -2,6 +2,10 @@
 local _, ns = ...
 
 ns.RegisterLanguagePack("itIT", "Italiano", {
+    ["Bug report"] = "Segnalazione bug",
+    ["Select all"] = "Seleziona tutto",
+    ["Press Ctrl+C to copy this report, then paste it into a new report at the link below, with a few words on what happened."] = "Premi Ctrl+C per copiare questo rapporto, poi incollalo in una nuova segnalazione al link qui sotto, con due parole su cosa è successo.",
+    ["Select link"] = "Seleziona link",
     ["%s expires in %d seconds."] = "%s scade tra %d secondi.",
     ["%s was destroyed."] = "%s è stato distrutto.",
     ["%s: %s left."] = "%s: restano %s.",

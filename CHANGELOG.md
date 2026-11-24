@@ -2,6 +2,18 @@
 
 All notable changes to Nullgate's Totems - Forever.
 
+## [1.0.0-beta.4] - 2026-11-24
+
+### New
+
+- **Bug report window.** `/ntotem check` now opens a window with its report, ready to copy.
+- Press Ctrl+C to copy the report, then paste it into the report form at nullgatestudios.com/report?addon=totems, which opens with this addon already picked. You can report without an account.
+- Every Nullgate addon now uses the same report window.
+
+### Good to know
+
+- The game doesn't let addons open a web browser, so type or copy the link into your browser yourself. The **Select link** button selects it for copying.
+
 ## [1.0.0-beta.3] - 2026-11-21
 
 ### Fixed
