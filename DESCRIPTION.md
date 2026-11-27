@@ -70,5 +70,6 @@ The addon uses your game's language automatically. You can switch at any time in
 
 ## Good to Know
 
+- **Also in Nullgate's Buffs:** Totems is part of the all-in-one **Nullgate's Buffs**. If you have both, Totems runs and they share your settings.
 - The addon only runs for shamans.
 - Totem durations and ranks are read from the Forever client data, not copied from original Classic.
