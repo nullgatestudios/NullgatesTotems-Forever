@@ -2,6 +2,12 @@
 
 All notable changes to Nullgate's Totems - Forever.
 
+## [1.0.0-beta.5] - 2026-11-27
+
+### New
+
+- **Part of Nullgate's Buffs.** Nullgate's Totems is now also a module of the all-in-one **Nullgate's Buffs**. If you have both, Totems runs and they share your settings, so a change in one carries over to the other.
+
 ## [1.0.0-beta.4] - 2026-11-24
 
 ### New
